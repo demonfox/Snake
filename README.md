@@ -1,40 +1,60 @@
-# Snake Game
+# 🐍 Neon Snake
 
-A classic Snake game implemented in Python using the `curses` library.
+A modern, visually stunning Snake game that runs in your browser. Built with HTML5 Canvas and vanilla JavaScript.
 
-## Features
+## ✨ Features
 
-- Playable snake controlled with arrow keys
-- Random food generation
-- Score tracking
-- Game over on wall collision or self-collision
-- Clean terminal-based UI
+- 🎮 **Browser-based** — No installation required, just open and play
+- 🌟 **Neon visual effects** — Glowing snake, gradient effects, smooth animations
+- 🎨 **Dark theme** — Modern aesthetic with neon green/cyan colors
+- 📱 **Responsive** — Works on different screen sizes
+- 🏆 **High score tracking** — Saves your best score locally
+- ⚡ **Progressive difficulty** — Snake speeds up as you score more
+- ⌨️ **Keyboard controls** — Arrow keys for movement, Space to pause
 
-## Requirements
+## 🚀 How to Play
 
-- Python 3.x
-- Unix-like terminal (macOS/Linux)
+### Local
+Simply open `index.html` in any modern web browser.
 
-## How to Play
+```bash
+# Or use a simple HTTP server for the best experience
+python3 -m http.server 8000
+# Then open http://localhost:8000
+```
 
-1. Run the game:
-   ```bash
-   python3 snake.py
-   ```
+### Controls
+| Key | Action |
+|-----|--------|
+| ⬆️ ⬇️ ⬅️ ➡️ | Move the snake |
+| SPACE | Pause/Resume |
 
-2. Controls:
-   - **Arrow Keys**: Move the snake
-   - **ESC**: Quit the game
+### Objective
+- Eat the red food pellets to grow and score points
+- Avoid hitting the walls or yourself
+- Try to beat your high score!
 
-3. Eat food (π symbol) to grow and increase your score.
-4. Avoid hitting the walls or yourself!
+## 🛠️ Deployment
 
-## Game Mechanics
+This is a static website — deploy it anywhere:
+- **GitHub Pages** — Free hosting directly from this repo
+- **Netlify** — Drag and drop the folder
+- **Vercel** — Connect your GitHub repo
+- **Any static host** — Just upload the files
 
-- The snake moves continuously in the current direction
-- Each food item eaten increases score by 1
-- The game ends when the snake collides with walls or itself
+## 📁 Files
 
-## License
+```
+.
+├── index.html    # The complete game (HTML + CSS + JS)
+├── README.md     # This file
+└── .gitignore    # Git ignore rules
+```
 
-MIT
+## 📝 License
+
+MIT — Feel free to use, modify, and distribute!
+
+---
+
+Made with 💚 and lots of neon glow effects
